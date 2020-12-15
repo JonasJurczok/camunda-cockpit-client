@@ -14,8 +14,8 @@ Select **process instances** to operate on with these:
  - Part of an error message from a failed job (`--message` / `-m`)
  - Time range (`--from-timestamp` and `--to-timestamp`, both in ISO-8601 format)
 
-###Development Status
-####Login/Configuration
+### Development Status
+#### Login/Configuration
 
 This tool supports cookie-based authorization of the Camunda Cockpit and [OAuth](https://oauth.net/). Configure the base url and process engine name in a configuration file. The script tries to read the configuration from the following two places:
 
@@ -38,10 +38,10 @@ Here, you could either specify the process engine using the `--shard` flag on th
 
 If the url uses HTTPS without a certificate known to the [Python request library][3], you can specify a path to a certificate in this configuration file.
 
-###Contributing to Camunda Cockpit Command-Line Client
+### Contributing to Camunda Cockpit Command-Line Client
 This project welcomes feedback and contributions. Feel free to claim something from our ["Help Wanted"](https://github.com/zalando/SwiftMonkey) items, or pitch an idea of your own. And take a look at our [Contributor guidelines](https://github.com/zalando/camunda-cockpit-client/blob/master/CONTRIBUTING.md) for info and updates about our process.
 
-###License
+### License
 This project uses the [Apache license, version 2](https://github.com/zalando/camunda-cockpit-client/blob/master/LICENSE).
 
  [1]: https://docs.camunda.org/manual/7.4/reference/rest/
